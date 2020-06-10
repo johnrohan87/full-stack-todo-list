@@ -14,3 +14,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.ToDoContainer ul {
+  text-align: left;
+  padding-left: 10px;
+}
+.textarea-addon {
+  background-color: gray;
+}
+.ToDoContainer ul:nth-child(odd) {
+  background-color: #f7f7f7;
+}

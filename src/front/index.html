@@ -13,17 +13,51 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div
+      class="container-fluid text-center h-100 container"
+      style="width:600px;"
+    >
+      <ul
+        class="justify-content-center align-items-center text-center row"
+        style="width:100%; margin: 0 auto; margin-top:50px;"
+      >
+        <div class="form-group container" style="width:100%;">
+          <label
+            for="usr"
+            class="bg-primary text-white"
+            style="width:100%;  padding:5px 0px 0px 15px; text-align:left; line-height:3;"
+            ><h4>THINGS TO DO</h4></label
+          >
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control bg-light"
+              placeholder="New task"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary bg-success text-white"
+                type="button"
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div class="ToDoContainer">
+            <ul class="col-12">
+              thing 1
+            </ul>
+            <ul class="col-12">
+              thing 2
+            </ul>
+            <ul class="col-12">
+              thing 3
+            </ul>
+          </div>
+        </div>
+      </ul>
     </div>
   </body>
 </html>
